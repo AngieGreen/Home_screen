@@ -32,6 +32,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# Get rid of WEBrick and use Thin as a server instead
+gem 'thin'
+
 # Use Stamp to make dates and times human-readable
 gem 'stamp'
 
@@ -41,6 +44,9 @@ group :development, :test do
 
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
+
+  # Quiet assets so they don't show in the server
+  gem 'quiet_assets'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
