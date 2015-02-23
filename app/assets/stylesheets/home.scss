@@ -5,15 +5,13 @@
 
 #main {
   text-align: center;
-  top: 50%;
+  top: 30%;
   width: 100%;
   position: absolute;
-}
+  line-height: 1em;
 
-#clock {
-  text-align: center
-}
-
-#greeting {
-  text-align: center
+  #clock {
+    font-family: impact;
+    font-size: 4em;
+  }
 }
