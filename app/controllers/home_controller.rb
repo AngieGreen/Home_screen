@@ -2,7 +2,7 @@ class HomeController < ApplicationController
   def index
     time_now = Time.now
 
-    @current_time = time_now.to_formatted_s(:short)
+    @current_time = time_now.stamp_like("9:00 am")
 
     # Adjust message by time of day
     @greet_message = case time_now.hour
