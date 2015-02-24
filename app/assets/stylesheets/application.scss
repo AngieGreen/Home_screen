@@ -12,6 +12,7 @@
  *
  *= require_tree .
  *= require_self
+ *= require font-awesome
  */
 
 html {
@@ -32,4 +33,7 @@ html {
   background-color: rgba(0, 0, 0, 0.1);
   padding: 0.5em;
   left: 0;
+  a {
+    color: #fff;
+  }
 }
