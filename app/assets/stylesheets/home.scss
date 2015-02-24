@@ -11,7 +11,14 @@
   line-height: 1em;
 
   #clock {
-    font-family: impact;
-    font-size: 4em;
-  }
+    font-size: 6em;
+    font-family: 'Syncopate', sans-serif;
+    color: #fff;
+    font-weight: 1100; }
+
+  #greeting {
+    font-size: 3em;
+    font-family: 'Playball', cursive;
+    color: #fff;
+    font-weight: 400; }
 }

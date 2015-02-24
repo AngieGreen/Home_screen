@@ -7,13 +7,13 @@ class HomeController < ApplicationController
     # Adjust message by time of day
     @greet_message = case time_now.hour
       when 5..11
-        "Good morning!"
+        "Good morning, beautiful!"
       when 12..15
-        "Good afternoon!"
+        "Happy afternoon, sunshine!"
       when 16..19
-        "Good evening!"
+        "Good evening, darling!"
       when 20..23, 0..4
-        "Good night!"
+        "Good night. Until tomorrow..."
       end
 
   end
