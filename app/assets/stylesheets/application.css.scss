@@ -18,7 +18,10 @@
 html {
   font-family: Arial;
   font-size: 20px;
-  background-image: image-url("leopard.png");
+  background: image-url("leopard.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 
