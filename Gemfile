@@ -49,6 +49,9 @@ group :development, :test do
 
   # Quiet assets so they don't show in the server
   gem 'quiet_assets'
+
+  # add Awesome Print to make PUTS pretty
+  gem 'awesome_print'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
