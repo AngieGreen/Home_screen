@@ -23,3 +23,21 @@
     color: #fff;
     font-weight: 400; }
 }
+
+#quote {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 5%;
+  text-shadow: 2px 2px 0 #000;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.5em;
+  color: #fff;
+  font-weight: 600;
+  &:before {
+    content: open-quote;
+  }
+  &:after {
+    content: close-quote;
+  }
+}
