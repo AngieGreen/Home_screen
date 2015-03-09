@@ -50,11 +50,16 @@ group :development, :test do
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
 
-  # Quiet assets so they don't show in the server
-  gem 'quiet_assets'
-
   # add Awesome Print to make PUTS pretty
   gem 'awesome_print'
+end
+
+group :development do
+  # Letter_opener gem for emails in development
+  gem 'letter_opener'
+
+  # Quiet assets so they don't show in the server
+  gem 'quiet_assets'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
