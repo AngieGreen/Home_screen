@@ -42,6 +42,6 @@ Rails.application.configure do
   # set URL for the mailer
   config.action_mailer.default_url_options = { host: 'localhost:3000'}
   # use letter_opener gem
-  config.action_mailer.delevery_method = :letter_opener
+  config.action_mailer.delivery_method = :letter_opener
 
 end
