@@ -40,6 +40,9 @@ gem 'thin'
 # Use Stamp to make dates and times human-readable
 gem 'stamp'
 
+# Use Clearance for user authentication
+gem 'clearance'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
