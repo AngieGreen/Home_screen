@@ -76,4 +76,9 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  # TODO update this info & uncomment when you push to Heroku
+  # set URL for the mailer
+  # config.action_mailer.default_url_options = { host: 'localhost:3000'}
+
 end
