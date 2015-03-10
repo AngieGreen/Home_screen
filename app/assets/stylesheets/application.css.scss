@@ -58,8 +58,9 @@ html {
   background-color: rgba(0,0,0,0.3);
   padding: 1em 3em 3em 3em;
   border-radius: 5px;
+  text-align: center;
   margin: 0 auto;
-  width: 300px;
+  width: 50%;
   color: #fff;
   a {
     color: #eee;
@@ -69,4 +70,25 @@ html {
   div {
     padding-top: 0.3em;
   }
+  .other-links {
+    font-size: $minor-sized;
+    margin-top: 2em;
+    padding: 10px;
+    border: 1px solid rgba(255,255,255,0.5);
+    border-radius: 5px;
+    a {
+      padding: 2px;
+    }
+  }
+}
+.flash.notice {
+  background-color: rgba(180,0,0,0.6);
+  border-radius: 5px;
+  padding: 1em;
+  margin: 0.5em auto;
+  text-align: center;
+  width: 50%;
+  font-size: 2em;
+  font-weight: bold;
+  color: #ffffff;
 }
