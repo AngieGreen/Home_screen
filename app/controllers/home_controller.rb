@@ -16,7 +16,9 @@ class HomeController < ApplicationController
         "Good night. Until tomorrow..."
       end
 
-    @quote = Quote.all.sample.quip
+    @quote = Quote.all.sample
+    @quip = @quote.quip
+    @author = @quote.author
 
   end
 end

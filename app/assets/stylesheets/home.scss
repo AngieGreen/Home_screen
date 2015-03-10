@@ -37,14 +37,16 @@
   font-size: 1.5em;
   color: #424242;
   font-weight: 600;
-  &:before {
-    content: open-quote;
-  }
-  &:after {
-    content: close-quote;
-  }
   .author {
-    font-size: 1em;
+    font-size: 0.7em;
     color: #676767;
+  }
+  .quip {
+    &:before {
+      content: open-quote;
+    }
+    &:after {
+      content: close-quote;
+    }
   }
 }
