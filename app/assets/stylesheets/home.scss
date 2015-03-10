@@ -9,19 +9,22 @@
   width: 100%;
   position: absolute;
   line-height: 1em;
-  text-shadow: 2px 2px 0 #000;
+  color: #424242;
 
   #clock {
     font-size: 6em;
     font-family: 'Syncopate', sans-serif;
-    color: #fff;
-    font-weight: 1100; }
+    color: #ffffff;
+    font-weight: 1100;
+    text-shadow: 3px 3px 0 #000;
+  }
 
   #greeting {
     font-size: 3em;
     font-family: 'Playball', cursive;
-    color: #fff;
-    font-weight: 400; }
+    font-weight: 400;
+    text-shadow: 1px 1px 0 #000;
+  }
 }
 
 #quote {
@@ -29,10 +32,10 @@
   width: 100%;
   position: absolute;
   bottom: 5%;
-  text-shadow: 2px 2px 0 #000;
+  text-shadow: 1px 1px 0 #ffffff;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 1.5em;
-  color: #fff;
+  color: #424242;
   font-weight: 600;
   &:before {
     content: open-quote;
